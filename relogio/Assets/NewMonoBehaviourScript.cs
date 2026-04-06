@@ -21,6 +21,8 @@ public class relogio : MonoBehaviour
         segundo_rotacao.y = segundos_atuais * 6 * (-1);
         ponteiro_segundo.localEulerAngles = segundo_rotacao;
     }
+
+
 }
 
 
