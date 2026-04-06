@@ -728,6 +728,7 @@ GameObject:
   m_Component:
   - component: {fileID: 782392573}
   - component: {fileID: 782392574}
+  - component: {fileID: 782392575}
   m_Layer: 0
   m_Name: horas
   m_TagString: Untagged
@@ -763,6 +764,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfd5833d90699dc42bc5f8ede7c39390, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
+--- !u!114 &782392575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 782392572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79b0570730bd0414399eee01a9669156, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::horas
+  ponteiro_hora: {fileID: 782392573}
 --- !u!1 &798912014
 GameObject:
   m_ObjectHideFlags: 0
@@ -1388,6 +1402,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1048837467}
+  - component: {fileID: 1048837468}
   m_Layer: 0
   m_Name: minutos
   m_TagString: Untagged
@@ -1411,6 +1426,19 @@ Transform:
   - {fileID: 917530112}
   m_Father: {fileID: 1450926899}
   m_LocalEulerAnglesHint: {x: 0, y: 30, z: 0}
+--- !u!114 &1048837468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1048837466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40ab3f6af0a070341a77645091bfefde, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::minutos
+  ponteiro_minuto: {fileID: 1048837467}
 --- !u!1 &1049174264
 GameObject:
   m_ObjectHideFlags: 0
