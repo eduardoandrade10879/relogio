@@ -15,7 +15,7 @@ public class horas : MonoBehaviour
     void Update()
     {
         rotacao_ponteiro_hora = ponteiro_hora.transform.localEulerAngles;
-        rotacao_ponteiro_hora.y = DateTime.Now.Hour * -12;
+        rotacao_ponteiro_hora.y = DateTime.Now.Hour  * -30;
         ponteiro_hora.transform.localEulerAngles = rotacao_ponteiro_hora;
     }
 }
